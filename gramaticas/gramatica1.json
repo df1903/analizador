@@ -1,0 +1,13 @@
+{
+  "terminales": ["m", "a", "b", "d", "r"],
+  "no_terminales": ["T", "U", "P", "X", "D", "R"],
+  "simbolo_inicial": "T",
+  "producciones": {
+    "T": ["PmU"],
+    "U": ["R", "D"],
+    "P": ["amX"],
+    "X": ["b", "d"],
+    "D": ["d"],
+    "R": ["r"]
+  }
+}
